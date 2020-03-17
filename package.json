@@ -31,5 +31,9 @@
     "files": [
       "./test/*.js"
     ]
+  },
+  "devDependencies": {
+    "ava": "^3.5.0",
+    "dotenv": "^8.2.0"
   }
 }
