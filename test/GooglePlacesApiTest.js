@@ -1,8 +1,8 @@
 // load .env for api key
 require('dotenv').config();
 const test = require('ava');
-const GoogleApi = require('../src/services/GoogleApi.js');
-const googleapi = new GoogleApi(process.env.GOOGLE_API_KEY);
+const GooglePlacesApi = require('../src/GooglePlacesApi.js');
+const googleapi = new GooglePlacesApi(process.env.GOOGLE_API_KEY);
 const photoReference = 'CmRaAAAAqYV1efHXXLX3UB1msekeprgOUD362n4-8lxwYI3aSFANLw51oE1_KeNziEgnnbr5WQzJtQo9SbNnZFRfymg594T9h7yRWnLQL8w1n_ekN6BbyJzg1k0hadSJ4N0i63TmEhA3NIzf_JWUEZcW3VgXJ5FqGhRq7ij6D2Vl8DOSF2yHY1iuTYuAKA';
 
 const isUrl = (str) => {
