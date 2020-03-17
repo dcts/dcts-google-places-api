@@ -1,5 +1,5 @@
 # Google Places API (for node)
-Node client to run the basic google places API requests (using axios). Published on [NPM]().
+Node client to run the basic google places API requests (using axios). Published on [NPM](https://www.npmjs.com/package/dcts-google-places-api).
 - [**Place Search**](https://developers.google.com/places/web-service/search)
 - [**Place Details**](https://developers.google.com/places/web-service/details)
 - [**Place Photos**](https://developers.google.com/places/web-service/photos)
