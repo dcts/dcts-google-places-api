@@ -131,4 +131,4 @@ npm run test
 - [ ] run `npm run test` to see missing tests.
 
 # Credits
-Code availible though npm. Written by [dcts](www.github.com/dcts) for personal use only. Check my [portfolio website](https://dcts.github.io/CV/). Or go play [tetris](https://dcts-tetris-sphere.firebaseapp.com/).
+Written by [dcts](www.github.com/dcts) for personal use only. Check my [portfolio website](https://dcts.github.io/CV/). Or go play [tetris](https://dcts-tetris-spheres.firebaseapp.com/).
