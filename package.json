@@ -1,12 +1,35 @@
 {
   "name": "dcts-google-places-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node client for Google Places API (placeSearch, placeDetails, placePhoto). Written by dcts.",
+  "main": "src/GooglePlacesApi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --verbose"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dcts/node-google-places-api.git"
+  },
+  "keywords": [
+    "google",
+    "places",
+    "api",
+    "placesearch",
+    "placedetails",
+    "placephoto"
+  ],
   "author": "Thomas Starzynski <thommy-star@hotmail.ch> (dcts.github.io/CV)",
-  "license": "mit"
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/dcts/node-google-places-api/issues"
+  },
+  "homepage": "https://github.com/dcts/node-google-places-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "ava": {
+    "files": [
+      "./test/*.js"
+    ]
+  }
 }
