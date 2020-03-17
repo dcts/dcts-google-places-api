@@ -1,12 +1,11 @@
 # Google Places API (for node)
-Client to run the basic google places API requests (using axios):
+Node client to run the basic google places API requests (using axios). Published on [NPM]().
 - [**Place Search**](https://developers.google.com/places/web-service/search)
 - [**Place Details**](https://developers.google.com/places/web-service/details)
 - [**Place Photos**](https://developers.google.com/places/web-service/photos)
 
 
 ## Installing
-Using npm:
 ```bash
 $ npm install dcts-google-places-api
 ```
@@ -132,4 +131,4 @@ npm run test
 - [ ] run `npm run test` to see missing tests.
 
 # Credits
-Code availible though npm. Written by [dcts](www.github.com/dcts) for personal use only. Check my [portfolio website](dcts.github.io/CV/). Or go play [tetris](dcts-tetris-sphere.firebaseapp.com/).
+Code availible though npm. Written by [dcts](www.github.com/dcts) for personal use only. Check my [portfolio website](https://dcts.github.io/CV/). Or go play [tetris](https://dcts-tetris-sphere.firebaseapp.com/).
