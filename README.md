@@ -14,8 +14,8 @@ $ npm install dcts-google-places-api
 ### Initialzation
 ```js
 const apiKey = "INSERT_YOUR_API_KEY"; // define API key
-const GooglePlacesApi = require('./src/GooglePlacesApi.js'); // load js file
-const googleapi = new GooglePlacesApi(apiKey); // initiaize
+const GooglePlacesApi = require('dcts-google-places-api');
+const googleapi = new GooglePlacesApi(apiKey); // initialize
 ```
 ### Place Search
 ```js
