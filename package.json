@@ -1,6 +1,6 @@
 {
   "name": "dcts-google-places-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node client for Google Places API (placeSearch, placeDetails, placePhoto). Written by dcts.",
   "main": "src/GooglePlacesApi.js",
   "scripts": {
