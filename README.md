@@ -129,6 +129,8 @@ npm run test
 
 ## ToDo's
 - [ ] run `npm run test` to see missing tests.
+- [ ] escape queries with `encodeURI()` or `encodeURIComponent` -> write tests for them first.
+- [ ] why some request work on google maps webinterface but not with the API, like this one: `Bartleby’s Ice Cream Cakes` -> no results from the API, but finds it on webinterface. I think it could be something with the top appostroph.
 
 # Credits
 Written by [dcts](www.github.com/dcts) for personal use only. Check my [portfolio website](https://dcts.github.io/CV/). Or go play [tetris](https://dcts-tetris-spheres.firebaseapp.com/).
