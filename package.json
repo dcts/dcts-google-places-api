@@ -1,6 +1,6 @@
 {
   "name": "dcts-google-places-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node client for Google Places API (placeSearch, placeDetails, placePhoto). Written by dcts.",
   "main": "src/GooglePlacesApi.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dcts/node-google-places-api.git"
+    "url": "git+ssh://git@github.com/dcts/dcts-google-places-api.git"
   },
   "keywords": [
     "google",
@@ -18,8 +18,8 @@
     "placedetails",
     "placephoto"
   ],
-  "author": "Thomas Starzynski <thommy-star@hotmail.ch> (dcts.github.io/CV)",
-  "license": "mit",
+  "author": "Thomas Starzynski <thomas@liist.com> (dcts.github.io/CV)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dcts/node-google-places-api/issues"
   },
